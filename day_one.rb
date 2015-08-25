@@ -12,7 +12,7 @@ byron = { eye_color: "brown", height: "5'10", weight: "165 Lbs", home_town: "gai
 # Bonus Exercises
 
 # 6. Use string interpolation to display the number from exercise 3 in the middle a string.
-puts 'I am #{age} years old.'
+puts "I am #{age} years old."
 # 7. Make an array of hashes containing more information about your favorite movies. The hashes should have at least three key value pairs.
 movie_info = [
 { title: "top_gun", release_date: '1986', episodes: 1 },
