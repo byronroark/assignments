@@ -20,3 +20,7 @@ movie_info = [
 { title: "harry_potter", release_date: '2001', episodes: 8 },
 { title: "bourne_identity", release_date: '2002', episodes: 4 }
 ]
+# 8. Use `each` to loop through the answer from exercise #7 and print only one property from the hash. i.e., given `{ title: "Gone with the Wind" }` you print "Gone with the Wind".
+movie_info.each do |movies|
+  puts movies[:episodes]
+end
